@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "deploy": "ng build --prod --base-href https://abhaypurohit01.github.io/spark/ && npx ngh --dir=dist/spark",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
